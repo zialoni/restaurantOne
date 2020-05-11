@@ -1,0 +1,199 @@
+html {
+	background-color: #FFFFFF;
+}
+
+body {
+	background-image: url('../images/restaurant_view.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: sans-serif;
+	font-size: 100%;
+	max-width: 100%;
+	width: 2000px;
+	margin: auto;
+	text-align: center;
+}
+
+#container {
+	padding: 30px;
+	background-color: #F8F8F8;
+	margin: 0 15%;
+	min-width: 300px;
+}
+
+/* styles for our header */
+header {
+	text-align: center;
+}
+
+header h1 {
+	text-align: center;
+	font-family: 'Bad Script', cursive;
+	font-weight: 400;
+	font-size: 4em;
+	border-bottom: 2px solid black;
+	line-height: 130%;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+/* styles for our navigation */
+nav {
+	padding-bottom: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 5px;
+	width: 60px;
+	font-weight: bold;
+	font-size: 1em;
+	background-color: lightblue;
+	padding: 10px 30px;
+	border-radius: 3px;
+	text-shadow: 0 1px 1px #666666;
+	box-shadow: .2em .2em .5em #999;
+}
+
+a {
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+  }
+
+  /* a:hover must come after a:link & a:visited */
+a:hover {
+	color: grey;
+	text-shadow: 0 1px 1px white;
+}
+
+/* a:active must come after a:hover */
+a:active {
+	color: blue;
+	text-shadow: 0 1px 1px white;
+}
+
+.current_page {
+  color: rgb(251, 171, 21);
+  pointer-events: none;
+}
+
+/* styles for the main part of our page */
+h2 {
+	color: #FF6600;
+	font-family: 'Bad Script', cursive;
+	line-height: 2em;
+}
+
+#restaurant img {
+	width: 100%;
+	min-width: 200px;
+	max-width: 1000px;
+	/*height: 100%;*/
+	margin: auto;
+	display: block;
+	border-radius: 10px;
+}
+
+/* styles for our footer */
+footer {
+	color: grey;
+	border-top: 1px solid grey;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.label {
+	font-weight: bold;
+	font-variant: small-caps;
+	font-style: normal;
+  }
+
+  /* Blog styles */
+  h2 {
+	color: #FF6600;
+	font-family: 'Bad Script', cursive;
+	line-height: 30px;
+}
+
+h3 {
+	color: grey;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+  article {
+	background-color: white;
+	padding: 20px 40px 40px 40px;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: .2em .2em .5em #999;
+	text-align: left;
+	width: auto;
+}
+
+  #purses img, #salmon img, #prawns img {
+	width: 100%;
+	min-width: 150px;
+	max-width: 700px;
+	height: 100%;
+	margin: auto;
+	display: block;
+	border-radius: 10px;
+}
+
+#menu {
+
+	background-color: white;
+	padding: 20px 40px 40px 40px;
+	margin: 20px;
+	border-radius: 10px;
+	box-shadow: .2em .2em .5em #999;
+	text-align: left;
+	width: auto;
+
+}
+
+#menu h2, menu p {
+
+text-align: center;
+
+}
+
+/* contact page*/
+
+label {
+
+	display:inline-block;
+	width:150px;
+	text-align: left;
+
+	}
+
+input {
+
+margin:10px;
+width:300px;
+
+}
+
+textarea {
+
+margin:10px;
+width:300px;
+	
+}

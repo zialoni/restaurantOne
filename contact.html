@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Black Goose Bistro: Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Marko+One">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Bad+Script">
+  <link rel="stylesheet" href="css/black_goose.css">
+</head>
+
+<body>
+<div id="container">
+  
+  <header>
+      <h1><img src="images/blackgoose.png" alt="Blackgoose logo" title="Logo"><br>
+        The Black Goose Blog</h1>
+  <nav>
+        <ul>
+          <li><a href="index.html" title="back to our home page">Home</a></li>
+          <li><a href="menu.html" title="See our summer menu">Menu</a></li>
+          <li><a href="blog.html" class="read all our latest news">Blog</a></li>
+          <li><a href="#" class = "current_page">Contact</a></li>
+        </ul>
+  </nav>
+  </header>
+
+  <main>
+   
+  
+    
+        <h2>Conatct US</h2>
+
+        <p>We'd love to hear from you with your suggestion, experience or any questions you may have.</p>
+        
+    <div id="contact">
+        <form name="query_form" action="process_form.php" method="post">
+
+        <label for="name">Name:</label>
+        <input name="name" id="name" type="text" autofocus required>
+        <br>
+        <label for="email">Email:</label>
+        <input name="email" id="email" type="email" required>
+        <br>
+        <label for="phone">Phone:</label>
+        <input name="phone" id="phone" type="phone" required>
+        <br>
+        <label for="query">Query:</label>
+        <textarea name="query" id="query"></textarea>
+        <br>
+        <input type="submit" value="send">
+    
+    </form>
+
+    </div><!--end div-->
+
+
+</main>
+
+  <footer>
+    <!--<h2>Location and Hours</h2>-->
+    <p>Baker Street, Tenneriffe, Brisbane<br>
+      <span class="label">Hours: Monday through Thursday;</span> <time datetime="11:00">11am</time> to <time datetime="21:00">9pm</time>,
+      <span class="label">Friday and Saturday;</span> <time datetime="11:00">11am</time> to <time datetime="00:00">midnight</time></p>
+    <p><small>All content copyright &copy; 2019, Black Goose Bistro</small></p>
+  </footer>
+</div><!-- end container div -->
+</body>
+
+</html>
